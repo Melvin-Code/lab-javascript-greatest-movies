@@ -6,6 +6,7 @@
  */
 
 describe("Order the movies by year - orderByYear", function() {
+  console.log('hi')
   it("Defines orderByYear", function() {
     expect(typeof orderByYear).toBe("function");
   });
